@@ -1,8 +1,19 @@
-import React from 'react';
-
+import React, {useState} from 'react';
+// import {render} from "react-dom";
+import validator from "validator";
 
 export default function Contact() {
-    // const [input] = useState('')
+    const [message, setMessage] = useState('');
+    const validateEmail = (e) => {
+        var email = e.target.value;
+
+        if (validator.isEmail(email)) {
+            setMessage('Got it!');
+        }
+        else {
+            setMessage('Please enter a valid email')
+        }
+    }
     return (
         <div >
             <h1>Contact Us</h1>
@@ -18,9 +29,12 @@ export default function Contact() {
                 <label className="label">Email</label>
                 <input
                     type="text"
-                    placeholder="must have a valid email"
+                    placeholder="enter email here"
+                    onChange={(e) => validateEmail(e)}
                 >
                 </input>
+                
+                {message}
 
             </form>
         </div>
