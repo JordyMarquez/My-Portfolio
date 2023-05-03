@@ -6,7 +6,7 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
     // conditional statements to render each header
     return (
-        <ul className="navbar">
+        <ul className="navbar navbar-end">
             <li className="navbar-item">
                 <a
                     href="#home"

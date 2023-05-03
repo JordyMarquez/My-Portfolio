@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 // import {render} from "react-dom";
 import validator from "validator";
 
@@ -15,9 +15,9 @@ export default function Contact() {
         }
     }
     return (
-        <div >
+        <div className="column is-half" >
             <h1>Contact Us</h1>
-            <form>
+            <form className="column">
                 <label className='label'>Name</label>
                 <input
                     type="text"
@@ -33,9 +33,17 @@ export default function Contact() {
                     onChange={(e) => validateEmail(e)}
                 >
                 </input>
-                
-                {message}
 
+                <label className="label">Message</label>
+                <input
+                    type="text"
+                    placeholder="message"
+                >
+                </input>
+
+                <span className="tag is-small">
+                {message}
+                </span>
             </form>
         </div>
     )

@@ -11,7 +11,7 @@ import WindowContainer from './components/WindowContainer';
 
 function App() {
     return( 
-        <div>
+        <div className="container is-center">
 
 
         <div>
