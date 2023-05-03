@@ -1,4 +1,5 @@
-import React from 'react'; 
+import React from 'react';
+import 'bulma/css/bulma.min.css'
 
 // We import each of our components so that we can eventually return them
 import Header from './components/Header';

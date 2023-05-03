@@ -6,6 +6,10 @@ function Project() {
     return (
 
         <div>
+            <a
+            href=" https://jordy-note-taker.herokuapp.com/">
+            Project 1
+            </a>
 
         </div>
 

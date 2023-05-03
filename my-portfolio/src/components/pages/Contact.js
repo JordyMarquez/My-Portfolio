@@ -1,9 +1,28 @@
 import React from 'react';
 
+
 export default function Contact() {
+    // const [input] = useState('')
     return (
-        <div>
-            <h1>Contact</h1>
+        <div >
+            <h1>Contact Us</h1>
+            <form>
+                <label className='label'>Name</label>
+                <input
+                    type="text"
+                    placeholder="your name goes here"
+
+                    name="text"
+                >
+                </input>
+                <label className="label">Email</label>
+                <input
+                    type="text"
+                    placeholder="must have a valid email"
+                >
+                </input>
+
+            </form>
         </div>
     )
 }

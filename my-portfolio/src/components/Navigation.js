@@ -6,8 +6,8 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
     // conditional statements to render each header
     return (
-        <ul className="">
-            <li className="">
+        <ul className="navbar">
+            <li className="navbar-item">
                 <a
                     href="#home"
                     onClick={() => handlePageChange('Home')}
@@ -16,7 +16,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     Home
                 </a>
             </li>
-            <li className="">
+            <li className="navbar-item">
                 <a
                     href="#AboutMe"
                     onClick={() => handlePageChange('AboutMe')}
@@ -25,7 +25,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     About Me
                 </a>
             </li>
-            <li>
+            <li className="navbar-item">
                 <a
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -34,7 +34,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     Portfolio
                 </a>
             </li>
-            <li>
+            <li className="navbar-item">
                 <a
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
@@ -43,7 +43,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li>
-            <li>
+            <li className="navbar-item">
                 <a
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}
