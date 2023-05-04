@@ -4,6 +4,7 @@ import React from 'react';
 function Footer() {
     return (
         <div>
+            
             <p>©️ Orchidia Coding 2023</p>
         </div>
     )

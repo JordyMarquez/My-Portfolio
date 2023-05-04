@@ -7,7 +7,7 @@ function Navigation({ currentPage, handlePageChange }) {
     // conditional statements to render each header
     return (
         <ul className="navbar navbar-end">
-            <li className="navbar-item">
+            {/* <li className="navbar-item">
                 <a
                     href="#home"
                     onClick={() => handlePageChange('Home')}
@@ -15,7 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 >
                     Home
                 </a>
-            </li>
+            </li> */}
             <li className="navbar-item">
                 <a
                     href="#AboutMe"

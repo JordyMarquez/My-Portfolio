@@ -3,7 +3,7 @@ import Project from './Project'
 
 export default function Portfolio() {
     return (
-        <div>
+        <div className="column">
             <h1>Portfolio</h1>
             <Project />
         </div>
