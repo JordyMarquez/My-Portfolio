@@ -10,7 +10,7 @@ function Header() {
 
     return (
         <header className="mt-5 ml-6">
-            <a href="AboutMe"
+            <a href="#AboutMe"
             >
 
             <img src={icon} alt="" style={{width:100, height:100, borderRadius: 100/2}}/>
