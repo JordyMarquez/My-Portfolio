@@ -7,8 +7,10 @@ This is a portfolio created using React. The app shows the user's information ab
 ## Usage
 To install this app run `npx create-react-app` to build a src folder. Once React is installed, run `npm run start` to see the app go live. The app was created using bulma css framework and as such also needs to be installed: `npm i bulma`. 
 
-## Preview
-<!-- how to make something downloadble with REACT
-     cleaning up the files
-    deploying using GH pages -->
 ## Link
+
+https://jordymarquez.github.io/My-Portfolio/
+
+## Preview
+<img src="Portfolio.png"> 
+
