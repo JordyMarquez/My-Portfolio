@@ -1,10 +1,10 @@
 import React from 'react';
-import Icon from './github.png'
+import Icon from '../components/pages/images/github.png'
 
 // A single Footer component that appears on multiple pages
 function Footer() {
     return (
-        <div className="content is-vcen">
+        <div className="content has-text-centered mt-6">
             <a href="https://github.com/JordyMarquez">
 
                 <img src={Icon} alt="github" style={{ height: 50, width: 50 }}>
@@ -13,7 +13,7 @@ function Footer() {
 
             </a>
 
-            <p>©️ Orchidia Coding 2023</p>
+            <p>©️ Bloom Coding 2023</p>
         </div>
     )
 }

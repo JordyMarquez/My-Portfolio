@@ -3,7 +3,7 @@ import resume from '../resume.pdf'
 
 export default function Resume() {
     return (
-        <div className="column is-two-thirds">
+        <div className="column  has-text-centered">
             <div>
 
                 <p>
@@ -16,9 +16,9 @@ export default function Resume() {
 
             <div className="column">
                 <h1 className="mt-4  is-centered">Capabilities</h1>
-                <div className="columns">
+                <div className="columns mt-3">
                     <div className="column">
-                        <ul className="mt-3 is-half"> Front-End Proficiencies
+                        <ul className="mt-3 is-half"> Front-End Proficiencies:
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
@@ -31,7 +31,7 @@ export default function Resume() {
                     </div>
 
                     <div className="column">
-                        <ul className="mt-3 is-half "> Back-End Proficiencies
+                        <ul className="mt-3 is-half "> Back-End Proficiencies:
                             <li>APIs</li>
                             <li>Node</li>
                             <li>Express</li>

@@ -4,7 +4,7 @@ import Project from './Project'
 export default function Portfolio() {
     return (
         <div className="column">
-            <h1>Portfolio</h1>
+            <h1 className="has-text-centered">Portfolio</h1>
             <Project />
         </div>
     )

@@ -15,10 +15,10 @@ export default function Contact() {
         }
     }
     return (
-        <div className="mb-2 column" >
-            <h1>Contact Us</h1>
-            <form className="ml-2 is-centered">
-                <label className='label mt-2'>Name</label>
+        <div className="mb-2 column " >
+            <h1 className="has-text-centered">Feel free to reach out for any collaboration requests: </h1>
+            <form className="ml-2 has-text-centered">
+                <label className='label mt-2 mr-'>Name</label>
                 <input
                     type="text"
                     placeholder="your name goes here"
@@ -47,7 +47,7 @@ export default function Contact() {
                     </span>
 
                 </div>
-                <button>Submit</button>
+                <button className="button is-info is-light mt-2">Submit</button>
             </form>
         </div>
     )

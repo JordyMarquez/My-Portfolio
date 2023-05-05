@@ -1,30 +1,42 @@
 import React from 'react';
-import Movie from '../movie.png';
-import Notes from '../notes.png';
-import Phone from '../phone.png';
-import Bed from '../bed.png';
-import Money from '../money.png'
-import Editor from '../editor.png';
+import Movie from './images/movie.png';
+import Notes from './images/notes.png';
+import Phone from './images/phone.png';
+import Bed from './images/bed.png';
+import Money from './images/money.png'
+import Editor from './images/editor.png';
 
 // A single Project component that will be used multiple times in the Portfolio section
 
 function Project() {
     return (
 
-        <div className="columns mt-2 ml-2 is-multiline">
-            <div className="box" style={{ backgroundImage: `url(${Notes})` }}>
+        <div className="columns mt-2 ml-6 is-multiline has-text-centered">
+            <div className="box mr-4 has-text-centered" style={{ backgroundImage: `url(${Notes})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
 
-                PWA Note Taker
+                <span style={{ color: "white" }}>
 
-                <div>
-                    Heroku Link:
+                    PWA Note Taker
+
+                </span>
+
+                <div className="has-text-left">
+
+                    <span style={{ color: "white" }}>
+
+                        Heroku Link:
+                    </span>
                     <a className="ml-1"
                         href="https://jordy-note-taker.herokuapp.com/">
                         https://jordy-note-taker.herokuapp.com/
                     </a>
 
                     <div>
-                        Github Repo:
+
+                        <span style={{ color: "white" }}>
+
+                            Github Repo:
+                        </span>
                         <a
                             className="ml-1"
                             href="https://github.com/JordyMarquez/Text-Editor">
@@ -35,11 +47,11 @@ function Project() {
                 </div>
             </div>
 
-            <div className="box" style={{ backgroundImage: `url(${Movie})` }}>
+            <div className="box has-text-centered mr-4" style={{ color: "black", backgroundImage: `url(${Movie})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
 
                 Movie Reviewer
 
-                <div>
+                <div className="has-text-left">
                     Heroku Link:
                     <a className="ml-1"
                         href="https://binary-trio-movie-reviewer.herokuapp.com/">
@@ -47,6 +59,8 @@ function Project() {
                     </a>
 
                     <div>
+
+
                         Github Repo:
                         <a
                             className="ml-1"
@@ -58,12 +72,11 @@ function Project() {
                 </div>
             </div>
 
-            <div className="box" style={{ backgroundImage: `url(${Phone})` }}>
+            <div className="box mr-4 has-text-centered" style={{ color: "white", backgroundImage: `url(${Phone})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
 
                 Social Network API
-                <div>
 
-
+                <div className="has-text-left">
                     <div>
                         Github Repo:
                         <a
@@ -76,37 +89,37 @@ function Project() {
                 </div>
             </div>
 
-            <div className="box" style={{ backgroundImage: `url(${Bed})` }} >
+            <div className="box has-text-centered mr-4" style={{ color: "white", backgroundImage: `url(${Bed})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }} >
 
                 Bed & Booze API App
 
-                <div>
+                <div className="has-text-left">
                     Heroku Link:
                     <a className="ml-1"
-                        href="https://binary-trio-movie-reviewer.herokuapp.com/">
-                        https://binary-trio-movie-reviewer.herokuapp.com/.
+                        href="https://tylerdins88.github.io/traveler-project/">
+                        https://tylerdins88.github.io/traveler-project/.
                     </a>
 
                     <div>
                         Github Repo:
                         <a
                             className="ml-1"
-                            href="https://github.com/JordyMarquez/Text-Editor">
-                            https://github.com/JordyMarquez/Text-Editor
+                            href="https://github.com/tylerdins88/traveler-project">
+                            https://github.com/tylerdins88/traveler-project
                         </a>
 
                     </div>
                 </div>
             </div>
 
-            <div className="box" style={{ backgroundImage: `url(${Money})` }}>
+            <div className="box mr-4 has-text-centered" style={{ color: "black", backgroundImage: `url(${Money})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
 
                 E-Commerce Back-End
 
                 <div>
 
 
-                    <div>
+                    <div className="has-text-left">
                         Github Repo:
                         <a
                             className="ml-1"
@@ -118,11 +131,12 @@ function Project() {
                 </div>
             </div>
 
-            <div className="box mb-5 " style={{ backgroundImage: `url(${Editor})` }}>
+            <div className="box mb-5 has-text-centered" style={{ color: "black", backgroundImage: `url(${Editor})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
 
-                Day Scheduler
-                
-                <div>
+
+                    Day Scheduler
+
+                <div className="has-text-left">
                     Deployed Link:
                     <a className="ml-1"
                         href="https://jordymarquez.github.io/Day-Scheduler/">
