@@ -47,6 +47,7 @@ export default function Contact() {
                     </span>
 
                 </div>
+                <button>Submit</button>
             </form>
         </div>
     )
