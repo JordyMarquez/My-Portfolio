@@ -8,7 +8,7 @@ export default function Resume() {
 
                 <p>
 
-                    Click here for a donwloadable resume:
+                    Click here for a downloadable resume:
                 </p>
                 <a
                     href={resume}>Resume</a>
