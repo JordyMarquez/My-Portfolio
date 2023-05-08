@@ -4,21 +4,16 @@ import resume from '../resume.pdf'
 export default function Resume() {
     return (
         <div className="column  has-text-centered">
-            <div>
-
-                <p>
-
-                    Click here for a downloadable resume:
-                </p>
-                <a
-                    href={resume}>Resume</a>
-            </div>
 
             <div className="column">
-                <h1 className="mt-4  is-centered">Capabilities</h1>
+                <h1 className="mt-4  is-centered has-text-weight-bold is-size-4">Capabilities</h1>
                 <div className="columns mt-3">
                     <div className="column">
-                        <ul className="mt-3 is-half"> Front-End Proficiencies:
+                        <ul className="mt-3 is-half is-size-5"> 
+                        <span className="has-text-weight-semibold	">
+
+                        Front-End Proficiencies:
+                        </span>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
@@ -31,7 +26,11 @@ export default function Resume() {
                     </div>
 
                     <div className="column">
-                        <ul className="mt-3 is-half "> Back-End Proficiencies:
+                        <ul className="mt-3 is-half is-size-5 "> 
+                        <span className="has-text-weight-semibold	">
+
+                        Back-End Proficiencies:
+                        </span>
                             <li>APIs</li>
                             <li>Node</li>
                             <li>Express</li>
@@ -46,6 +45,15 @@ export default function Resume() {
 
             </div>
 
+            <div className="mt-5 is-size-5 has-text-weight-semibold	">
+
+                <p>
+
+                    Click here for a downloadable resume:
+                </p>
+                <a
+                    href={resume}>Resume</a>
+            </div>
         </div>
     )
 }

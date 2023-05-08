@@ -11,144 +11,165 @@ import Editor from './images/editor.png';
 function Project() {
     return (
 
-        <div className="columns mt-2 ml-6 is-multiline has-text-centered">
-            <div className="box mr-4 has-text-centered" style={{ backgroundImage: `url(${Notes})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
+        <div className="columns mt-5 ml-6 is-multiline has-text-centered is-size-5">
+            <div className="box mr-4 has-text-centered" style={{ backgroundImage: `url(${Notes})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", width: 400 }}>
 
-                <span style={{ color: "white" }}>
+                <span className="box has-text-weight-bold" >
 
                     PWA Note Taker
 
                 </span>
 
-                <div className="has-text-left">
+                <div className="mt-3 mt-5 box has-text-weight-semibold is-link">
 
-                    <span style={{ color: "white" }}>
-
-                        Heroku Link:
-                    </span>
-                    <a className="ml-1"
+                    <a className=""
                         href="https://jordy-note-taker.herokuapp.com/">
-                        https://jordy-note-taker.herokuapp.com/
+
+                        Heroku Link
+
                     </a>
 
                     <div>
 
-                        <span style={{ color: "white" }}>
-
-                            Github Repo:
-                        </span>
                         <a
-                            className="ml-1"
+                            className=""
                             href="https://github.com/JordyMarquez/Text-Editor">
-                            https://github.com/JordyMarquez/Text-Editor
+
+                            Github Repo
+
                         </a>
 
                     </div>
                 </div>
             </div>
 
-            <div className="box has-text-centered mr-4" style={{ color: "black", backgroundImage: `url(${Movie})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
+            <div className="box has-text-centered mr-4" style={{ color: "black", backgroundImage: `url(${Movie})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", width: 400 }}>
 
-                Movie Reviewer
+                <span className="box has-text-weight-bold">
 
-                <div className="has-text-left">
-                    Heroku Link:
-                    <a className="ml-1"
+                    Movie Reviewer
+
+                </span>
+
+                <div className="mt-5 box has-text-weight-semibold is-link">
+                    <a className=""
                         href="https://binary-trio-movie-reviewer.herokuapp.com/">
-                        https://binary-trio-movie-reviewer.herokuapp.com/
+
+                        Heroku Link
+
                     </a>
 
                     <div>
-
-
-                        Github Repo:
                         <a
-                            className="ml-1"
+                            className=""
                             href="https://github.com/JordyMarquez/Group-Project-2">
-                            https://github.com/JordyMarquez/Group-Project-2
+
+                            Github Repo
+
                         </a>
 
                     </div>
                 </div>
             </div>
 
-            <div className="box mr-4 has-text-centered" style={{ color: "white", backgroundImage: `url(${Phone})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
+            <div className="box mr-4 has-text-centered" style={{ color: "black", backgroundImage: `url(${Phone})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", width: 400 }}>
 
-                Social Network API
+                <span className="box has-text-weight-bold">
+                    Social Network API
 
-                <div className="has-text-left">
+                </span>
+
+                <div className="mt-5 box has-text-weight-semibold is-link">
                     <div>
-                        Github Repo:
                         <a
-                            className="ml-1"
+                            className=""
                             href="https://github.com/JordyMarquez/Text-Editor">
-                            https://github.com/JordyMarquez/Text-Editor
+
+                            Github Repo
+
                         </a>
 
                     </div>
                 </div>
             </div>
 
-            <div className="box has-text-centered mr-4" style={{ color: "white", backgroundImage: `url(${Bed})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }} >
+            <div className="box has-text-centered mr-4" style={{ color: "white", backgroundImage: `url(${Bed})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", width: 400 }} >
 
-                Bed & Booze API App
+                <span className="box has-text-weight-bold">
 
-                <div className="has-text-left">
-                    Heroku Link:
-                    <a className="ml-1"
+                    Bed & Booze API App
+
+                </span>
+
+                <div className="mt-3 mt-5 box has-text-weight-semibold is-link">
+                    <a className=""
                         href="https://tylerdins88.github.io/traveler-project/">
-                        https://tylerdins88.github.io/traveler-project/.
+
+                        Deployed Link
+
                     </a>
 
                     <div>
-                        Github Repo:
                         <a
-                            className="ml-1"
+                            className=""
                             href="https://github.com/tylerdins88/traveler-project">
-                            https://github.com/tylerdins88/traveler-project
+
+                            Github Repo
+
                         </a>
 
                     </div>
                 </div>
             </div>
 
-            <div className="box mr-4 has-text-centered" style={{ color: "black", backgroundImage: `url(${Money})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
+            <div className="box mr-4 has-text-centered" style={{ color: "black", backgroundImage: `url(${Money})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", width: 400 }}>
 
-                E-Commerce Back-End
+                <span className="box has-text-weight-bold">
+
+                    E-Commerce Back-End
+
+                </span>
 
                 <div>
 
 
-                    <div className="has-text-left">
-                        Github Repo:
+                    <div className="mt-3 mt-5 box has-text-weight-semibold is-link">
                         <a
-                            className="ml-1"
+                            className=""
                             href="https://github.com/JordyMarquez/E-Commerce-Back-End">
-                            https://github.com/JordyMarquez/E-Commerce-Back-End
+
+                            Github Repo
+
                         </a>
 
                     </div>
                 </div>
             </div>
 
-            <div className="box mb-5 has-text-centered" style={{ color: "black", backgroundImage: `url(${Editor})`, backgroundRepeat: "no-repeat", backgroundSize: "", width: 400 }}>
+            <div className="box mb-5 has-text-centered" style={{ color: "black", backgroundImage: `url(${Editor})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", width: 400 }}>
 
+                <span className="box has-text-weight-bold">
 
                     Day Scheduler
 
-                <div className="has-text-left">
-                    Deployed Link:
-                    <a className="ml-1"
+                </span>
+
+
+                <div className="mt-3 mt-5 box has-text-weight-semibold is-link">
+                    <a className=""
                         href="https://jordymarquez.github.io/Day-Scheduler/">
-                        https://jordymarquez.github.io/Day-Scheduler/
+
+                        Deployed Link
+
                     </a>
 
                     <div>
-                        Github Repo:
                         <a
-                            className="ml-1"
+                            className=""
                             href="https://github.com/JordyMarquez/Day-Scheduler">
-                            https://github.com/JordyMarquez/Day-Scheduler
+
+                            Github Repo
+
                         </a>
 
                     </div>

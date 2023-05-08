@@ -9,15 +9,23 @@ import icon from '../components/pages/images/flowers.png'
 function Header() {
 
     return (
-        <header className="mt-5 ml-6">
+        <div className="mt-3 mb-5 ml-6 columns">
         
+        <a
+       style={{ backgroundImage: `url(${icon})`, height: 100, width: 100, borderRadius: 100/2, backgroundSize:"cover", backgroundRepeat:"no-repeat" }}
+        href="https://jordymarquez.github.io/My-Portfolio/"
+        >
 
-            <img src={icon} alt="" style={{width:100, height:100, borderRadius: 100/2}}/>
+        <p className="has-text-white mt-2 has-text-centered has-text-weight-bold is-size-4">
+        Bloom Coding
+
+        </p>
+        
+        </a>
             
            
-           
             
-        </header>
+        </div>
         
     );
 }

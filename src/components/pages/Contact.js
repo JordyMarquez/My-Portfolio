@@ -15,10 +15,11 @@ export default function Contact() {
         }
     }
     return (
-        <div className="mb-2 column " >
-            <h1 className="has-text-centered">Feel free to reach out for any collaboration requests: </h1>
+        <div className="mb-2 mt-4 column is-size-4 " >
+            <h1 className="has-text-centered has-text-weight-bold">Contact Us </h1>
+            <h2 className="has-text-centered mt-3 is-size-5">Please fill out contact form below:</h2>
             <form className="ml-2 has-text-centered">
-                <label className='label mt-2 mr-'>Name</label>
+                <label className='label mt-2 is-size-5'>Name</label>
                 <input
                     type="text"
                     placeholder="your name goes here"
@@ -26,7 +27,7 @@ export default function Contact() {
                     name="text"
                 >
                 </input>
-                <label className="label mt-2">Email</label>
+                <label className="label mt-2 is-size-5">Email</label>
                 <input
                     type="text"
                     placeholder="enter email here"
@@ -34,7 +35,7 @@ export default function Contact() {
                 >
                 </input>
 
-                <label className="label mt-2">Message</label>
+                <label className="label mt-2 is-size-5">Message</label>
                 <input
                     type="message"
                     placeholder="message"
