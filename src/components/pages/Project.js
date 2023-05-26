@@ -16,14 +16,14 @@ function Project() {
 
                 <span className="box has-text-weight-bold" >
 
-                    PWA Note Taker
+                    Project 3: YardSale 2.0
 
                 </span>
 
                 <div className="mt-3 mt-5 box has-text-weight-semibold is-link">
 
                     <a className=""
-                        href="https://jordy-note-taker.herokuapp.com/">
+                        href="https://yardsale-2-application.herokuapp.com/">
 
                         Heroku Link
 
@@ -33,7 +33,7 @@ function Project() {
 
                         <a
                             className=""
-                            href="https://github.com/JordyMarquez/Text-Editor">
+                            href="https://github.com/mariahw4/yardsale-2.0">
 
                             Github Repo
 
